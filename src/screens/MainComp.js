@@ -18,7 +18,7 @@ import {
  import data from '../components/rules'
 
 
-export default class App1 extends Component {
+export default class MainComp extends Component {
   constructor(props){
     super(props);
     this.myRef = React.createRef();

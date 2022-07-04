@@ -1,4 +1,4 @@
-package asg.com;
+package sg.com;
 
 import android.os.Build;
 import android.os.Bundle;

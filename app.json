@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "ಸಂಗನಬಸವೇಶ್ವರ ಚರಿತ್ರೆ",
-    "slug": "ಸಂಗನಬಸವೇಶ್ವರ ಚರಿತ್ರೆ",
-    "version": "1.0.0",
+    "name": "ಶ್ರೀ ಆರೂಢ ಸಂಗನಬಸವೇಶ್ವರ",
+    "slug": "sanganabasveshwara",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/cover.jpeg",
+    "icon": "./assets/iconO.png",
     "splash": {
-      "image": "./assets/cover.jpeg",
+      "image": "./assets/splash1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "sg.com"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/cover.jpeg",
+        "foregroundImage": "./assets/iconO.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "sg.com"
     },
     "web": {
-      "favicon": "./assets/cover.jpeg"
-    }
+      "favicon": "./assets/iconO.png"
+    },
+    "owner":"shankarpattar1"
   }
 }

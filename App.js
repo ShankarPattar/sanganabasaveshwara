@@ -1,14 +1,14 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./src/screens/HomeScreen";
-import App1 from "./src/screens/App1";
+import MainComp from "./src/screens/MainComp";
 import PhotoGallery from './src/screens/PhooGallery';
 
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
-    App: App1,
+    App: MainComp,
     Photos:PhotoGallery
   },
   {
